@@ -1,0 +1,28 @@
+Name: Zhou, Albert
+Email: azhou2@lsu.edu
+Project: PA-2 
+Instructor: Feng Chen
+Class: cs4103-sp23
+Login ID: cs410388
+
+Program was written in java 
+To compile and run the program under the command line 
+	javac Clock.java
+	java Clock (# free memories) (#swapin time unit) (#swapout time unit) (input file path and name) (output file path and name)
+	
+
+Expected input
+R 33
+R 40
+R 2
+W 16
+R 6
+...
+
+Expected output(5 10 20 pageref-small.txt traceFile.txt)
+R 33 F -1 10 0
+R 40 F -1 10 0
+R 2 F -1 10 0
+W 16 F -1 10 0
+R 6 F -1 10 0
+...
